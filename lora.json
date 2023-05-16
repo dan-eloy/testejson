@@ -1,0 +1,77 @@
+{
+    "applicationID": "13",
+    "applicationName": "Hidrometros",
+    "deviceName": "Hidrômetro FM - 010",
+    "devEUI": "+AMyBQAC3Ts=",
+    "rxInfo": [
+        {
+            "gatewayID": "cnb/AAsDHnA=",
+            "time": "2023-02-02T19:00:00.037626Z",
+            "timeSinceGPSEpoch": null,
+            "rssi": -123,
+            "loRaSNR": -6.5,
+            "channel": 4,
+            "rfChain": 0,
+            "board": 260,
+            "antenna": 0,
+            "location": {
+                "latitude": -23.664087295532227,
+                "longitude": -46.58216857910156,
+                "altitude": 797,
+                "source": "UNKNOWN",
+                "accuracy": 0
+            },
+            "fineTimestampType": "NONE",
+            "context": "0WTEJA==",
+            "uplinkID": "oUSrJ2pGRUSQZVy/ceHLIg==",
+            "crcStatus": "CRC_OK"
+        },
+        {
+            "gatewayID": "cHb/AFQJAo0=",
+            "time": null,
+            "timeSinceGPSEpoch": "1359399618.037s",
+            "rssi": -118,
+            "loRaSNR": -6.5,
+            "channel": 4,
+            "rfChain": 0,
+            "board": 260,
+            "antenna": 0,
+            "location": {
+                "latitude": -23.66338539123535,
+                "longitude": -46.58522033691406,
+                "altitude": 728,
+                "source": "UNKNOWN",
+                "accuracy": 0
+            },
+            "fineTimestampType": "NONE",
+            "context": "fK+3TA==",
+            "uplinkID": "1Xshz0EmS6GZRTCFNak1kA==",
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 916000000,
+        "modulation": "LORA",
+        "loRaModulationInfo": {
+            "bandwidth": 125,
+            "spreadingFactor": 12,
+            "codeRate": "4/5",
+            "polarizationInversion": false
+        }
+    },
+    "adr": false,
+    "dr": 0,
+    "fCnt": 265,
+    "fPort": 9,
+    "data": "SXAcCKwAADi4AAA=",
+    "objectJSON": "{\"bat\":28,\"id\":73,\"medida_fluxo\":1452,\"medida_refluxo\":0,\"ver\":2220}",
+    "tags": {
+        "Nova_Tag": "FM - 010",
+        "Tipo": "Hidroponia"
+    },
+    "confirmedUplink": false,
+    "devAddr": "ADcrTA==",
+    "publishedAt": "2023-02-02T19:00:00.298806831Z",
+    "deviceProfileID": "cbd54d53-dbe9-47bd-b7f7-467258ae0ec0",
+    "deviceProfileName": "Albacore_Hidrometro"
+}
